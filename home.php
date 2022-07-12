@@ -1,7 +1,7 @@
 <?php
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <!-- Theme Made By www.w3schools.com -->
   <title>Intetec.info</title>

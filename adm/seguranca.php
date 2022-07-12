@@ -10,4 +10,16 @@
 			}
 		}
 	}
+
+	function seguranca_cliente(){
+		if((empty($_SESSION['usuarioId'])) || (empty($_SESSION['usuarioEmail'])) || (empty($_SESSION['usuarioNiveisAcessoId']))){		
+			$_SESSION['loginErro'] = "Área restrita";
+			header("Location: index.php");
+		}else{
+			if($_SESSION['usuarioNiveisAcessoId'] != "3"){
+				$_SESSION['loginErro'] = "Área restrita";
+				header("Location: index.php");
+			}
+		}
+	}
 ?>

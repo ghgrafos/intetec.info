@@ -22,9 +22,9 @@
 			}elseif($_SESSION['usuarioNiveisAcessoId'] == "2"){
 				header("Location: colaborador.php");
 			}elseif($_SESSION['usuarioNiveisAcessoId'] == "3"){
-				header("Location: cliente.php");
+				header("Location: adm/cliente.php");
 			}else{
-				$_SESSION['loginErro'] = "Erro - Entre em contato cesar@celke.com.br";
+				$_SESSION['loginErro'] = "Erro - Entre em contato@intetec.art.br";
 				header("Location: index.php");
 			}
 		}else{
