@@ -1,0 +1,4 @@
+[Wed Jul 20 22:46:43.835550 2022] [php7:error] [pid 21480] [client ::1:51664] script '/var/www/intetec.info/services/ifo.php' not found or unable to stat
+[Wed Jul 20 22:46:52.067273 2022] [php7:warn] [pid 21479] [client ::1:51666] PHP Warning:  Use of undefined constant __DIR - assumed '__DIR' (this will throw an Error in a future version of PHP) in /var/www/intetec.info/services/info.php on line 2
+[Wed Jul 20 22:46:52.069219 2022] [php7:warn] [pid 21479] [client ::1:51666] PHP Warning:  require(__DIRpublic/index): failed to open stream: No such file or directory in /var/www/intetec.info/services/info.php on line 2
+[Wed Jul 20 22:46:52.069272 2022] [php7:error] [pid 21479] [client ::1:51666] PHP Fatal error:  require(): Failed opening required '__DIRpublic/index' (include_path='.:/usr/share/php') in /var/www/intetec.info/services/info.php on line 2

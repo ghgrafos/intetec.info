@@ -1,0 +1,17 @@
+{
+    "name": "vmx/intetec.info",
+    "description": "testes de implentação com php",
+    "type": "project",
+    "license": "apache2",
+    "authors": [
+        {
+            "name": "Gilmar",
+            "email": "grafos@outlook.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "twbs/bootstrap": "3.0.0",
+        "components/jquery": "^3.6"
+    }
+}

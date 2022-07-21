@@ -14,7 +14,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" href="public/css/home.css">
+  <link rel="stylesheet" href="./public/css/home.css">
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -124,6 +124,7 @@
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
   </div>
+  <p><a class="btn btn-primary btn-lg" href="services">Learn more &raquo;</a></p>
 </div>
 
 <!-- Container (Portfolio Section) -->

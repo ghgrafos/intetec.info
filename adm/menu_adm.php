@@ -7,13 +7,13 @@
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<meta name="description" content="">
 		<meta name="author" content="">
-		<link rel="icon" href="/../public/favicon.ico">
+		<link rel="icon" href="../public/favicon.ico">
 
 		<title>admin_routes</title>
-		<link href="/public/css/bootstrap.css" rel="stylesheet">
-		<link href="/public/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-		<link href="/public/css/theme.css" rel="stylesheet">
-		<script src="/public/js/ie-emulation-modes-warning.js"></script>
+		<link href="../public/css/bootstrap.css" rel="stylesheet">
+		<link href="../public/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+		<link href="../public/css/theme.css" rel="stylesheet">
+		<script src="../public/js/ie-emulation-modes-warning.js"></script>
 	</head>
 
 <body role="document">
@@ -42,7 +42,7 @@
 				<li><a href="/home.php">Home</a></li>
 			</ul>
 			<div class="navbar-form navbar-right">					
-				<a href="../logout.php"><button type="submit" class="btn btn-success">Sair</button></a>
+				<a href="logout.php"><button type="submit" class="btn btn-success">Sair</button></a>
 			</div>
 		</div><!--/.nav-collapse -->				
 	</div>

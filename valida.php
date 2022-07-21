@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	include_once("conexao.php");
+	include_once("./conexao.php");
 	//Verifica se os campos possuem dados 
 	if((isset($_POST['txt_usuario'])) && (isset($_POST['txt_senha']))){
 		$usuario = mysqli_real_escape_string($conn, $_POST['txt_usuario']); //Escapar de caracteres especiais, como aspas, prevenindo SQL injection

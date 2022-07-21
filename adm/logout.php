@@ -8,5 +8,5 @@
 	);
 	
 	$_SESSION['loginDeslogado'] = "Deslogado com Sucesso";
-	header("Location: /../home.php");
+	header("Location: ../home.php");
 ?>
