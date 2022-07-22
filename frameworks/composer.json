@@ -1,0 +1,22 @@
+{
+    "name": "vmx/framework",
+    "description": "implementando modelos",
+    "type": "project",
+    "license": "apache2",
+    "authors": [
+        {
+            "name": "Gilmar",
+            "email": "grafos@outlook.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+          "VmxFramework\\": "src/"
+        }
+    },
+    "require": {
+        "twbs/bootstrap": "3.0.0",
+        "components/jquery": "^3.6"
+    }
+}

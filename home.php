@@ -1,10 +1,14 @@
 <?php
+require_once 'services/config/conexao.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <!-- Theme Made By www.w3schools.com -->
-  <title>Intetec.info</title>
+  <title><?php foreach($query->query("SELECT title FROM $todo_list") as $row) {
+              echo $row['title'];}
+            ?>
+  </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="public/favicon.ico">
@@ -14,6 +18,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+  <link href="services/public/css/ligthness.css" rel="stylesheet">
   <link rel="stylesheet" href="./public/css/home.css">
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -27,7 +32,7 @@
         <span class="icon-bar"></span>                        
       </button>
       <a class="navbar-brand" href="#myPage">  
-        <img src="/public/img/menu-logo.png" alt="logo" class="responsive"></a>
+        <img src="public/img/menu-logo.png" alt="logo" class="responsive"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -43,7 +48,11 @@
 
 <div class="jumbotron text-center">
   <img src="/public/img/logo.png" alt="logo" class="responsive">
-  <h1>Company</h1> 
+  <h1>
+  <?php foreach($query->query("SELECT content FROM $todo_list") as $row) {
+              echo $row['content'];}
+            ?>
+  </h1> 
   <p>Tecnologia de Comunicação e Informação</p> 
   <form class="form-inline">
     <div class="input-group">
