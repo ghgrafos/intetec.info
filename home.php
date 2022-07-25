@@ -133,7 +133,7 @@ require_once 'services/config/conexao.php';
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
   </div>
-  <p><a class="btn btn-primary btn-lg" href="services">Learn more &raquo;</a></p>
+  <p><a class="btn btn-primary btn-lg" href="app">Learn more &raquo;</a></p>
 </div>
 
 <!-- Container (Portfolio Section) -->

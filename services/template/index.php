@@ -35,8 +35,6 @@ echo "</ol>";
       <script src="../../assets/js/html5shiv.js"></script>
       <script src="../../assets/js/respond.min.js"></script>
     <![endif]-->
-    <link href="public/css/ligthness.css" rel="stylesheet">
-    <link href="public/css/home.css" rel="stylesheet">
   </head>
 
   <body class="template1-ligthness">
@@ -53,7 +51,7 @@ echo "</ol>";
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="/">Home</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="https://intetec.pages.dev/">Portifolioces</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
