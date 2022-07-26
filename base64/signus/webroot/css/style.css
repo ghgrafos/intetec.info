@@ -1,0 +1,33 @@
+header{
+    background-color:#FF4000;
+}
+.top-bar {
+    background-color: #FF4000;
+    
+}
+.top-bar .menu{
+    background-color: #FF4000;
+    padding: 10px;
+    min-width: 100%;
+    
+}
+.top-bar ul li{
+    background-color:#FF4000;
+    margin: 20px;
+    border: 1px solid white;
+    padding: 5px;
+    font-weight: bold;
+}
+.top-bar ul li a{
+    color: white;
+}
+.top-bar ul li a:active{
+    color: #2EFE2E;
+}
+.top-bar ul li a:hover{
+    color: #2EFE2E;
+}
+.logo{
+    font-size: 38px;
+    color: white;
+}

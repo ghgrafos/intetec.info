@@ -1,0 +1,1 @@
+<?php echo $this->Html->image('/upload/mao de Deus.jpg', ['alt'=>'photo']);?>

@@ -1,5 +1,5 @@
 <?php
-require_once 'services/config/conexao.php';
+require_once 'services/config/conecta_formater.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -19,7 +19,7 @@ require_once 'services/config/conexao.php';
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
   <link href="services/public/css/ligthness.css" rel="stylesheet">
-  <link rel="stylesheet" href="./public/css/home.css">
+  <link rel="stylesheet" href="/public/css/home.css">
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -47,7 +47,7 @@ require_once 'services/config/conexao.php';
 </nav>
 
 <div class="jumbotron text-center">
-  <img src="/public/img/logo.png" alt="logo" class="responsive">
+  <img src="img/logo.png" alt="logo" class="responsive">
   <h1>
   <?php foreach($query->query("SELECT content FROM $todo_list") as $row) {
               echo $row['content'];}
@@ -133,7 +133,7 @@ require_once 'services/config/conexao.php';
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
   </div>
-  <p><a class="btn btn-primary btn-lg" href="app">Learn more &raquo;</a></p>
+  <p><a class="btn btn-primary btn-lg" href="signus/category">Learn more &raquo;</a></p>
 </div>
 
 <!-- Container (Portfolio Section) -->
@@ -143,21 +143,21 @@ require_once 'services/config/conexao.php';
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="paris.jpg" alt="Paris" width="400" height="300">
+      <a href="/">link1<img src="signus/img/tile1.png" alt="Paris" width="400" height="300"></a>
         <p><strong>Paris</strong></p>
         <p>Yes, we built Paris</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="newyork.jpg" alt="New York" width="400" height="300">
+        <img src="signus/img/thumbs/tile2.jpg" alt="New York" width="400" height="300">
         <p><strong>New York</strong></p>
         <p>We built New York</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
+        <img src="signus/img/thumbs/tile3.jpg" alt="San Francisco" width="400" height="300">
         <p><strong>San Francisco</strong></p>
         <p>Yes, San Fran is ours</p>
       </div>
@@ -176,12 +176,15 @@ require_once 'services/config/conexao.php';
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
+      <img src="signus/img/big/image1.jpg" alt="San Francisco" width="400" height="300">
         <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
       </div>
       <div class="item">
+      <img src="signus/img/big/image2.jpg" alt="San Francisco" width="400" height="300">
         <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
       </div>
       <div class="item">
+      <img src="signus/img/big/image3.jpg" alt="San Francisco" width="400" height="300">
         <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
       </div>
     </div>
@@ -295,7 +298,7 @@ require_once 'services/config/conexao.php';
 </div>
 
 <!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+<img src="https://www.w3schools.com/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
