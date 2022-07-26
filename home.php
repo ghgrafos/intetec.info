@@ -1,5 +1,5 @@
 <?php
-require_once 'services/config/conecta_formater.php';
+require_once 'base64/services/config/conecta_formater.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -133,7 +133,7 @@ require_once 'services/config/conecta_formater.php';
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
   </div>
-  <p><a class="btn btn-primary btn-lg" href="signus/category">Learn more &raquo;</a></p>
+  <p><a class="btn btn-primary btn-lg" href="/base64/signus">Learn more &raquo;</a></p>
 </div>
 
 <!-- Container (Portfolio Section) -->
