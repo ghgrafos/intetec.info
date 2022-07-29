@@ -11,6 +11,7 @@ require_once 'base64/services/config/conecta_formater.php';
   </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <link rel="icon" href="public/favicon.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
@@ -47,7 +48,7 @@ require_once 'base64/services/config/conecta_formater.php';
 </nav>
 
 <div class="jumbotron text-center">
-  <img src="img/logo.png" alt="logo" class="responsive">
+  <img src="public/img/logo.png" alt="logo" class="responsive">
   <h1>
   <?php foreach($query->query("SELECT content FROM $todo_list") as $row) {
               echo $row['content'];}
